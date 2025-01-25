@@ -1,0 +1,785 @@
+Here's the combined code 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0
+  <title>Eruh Clothing Nigerian Limited - Custom Branding Services</title>
+  <meta name="description" content="Nigeria's leading provider of monogramming, branded jerseys, and billboard designs. Professional branding solutions since 2025.">
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1920x1080');
+      color: #fff;
+      padding: 120px 0;
+      text-align: center;
+      background-size: cover;
+    }
+
+    .cta {
+      background: #e67e22;
+      color: #fff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+
+    .cta:hover {
+      background: #d35400;
+    }
+
+    .services {
+      padding: 50px 0;
+      text-align: center;
+      background: #f9f9f9;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .service-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    }
+
+    .portfolio {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .contact {
+      padding: 50px 0;
+      background: #2c3e50;
+      color: #fff;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #e67e22;
+      color: #fff;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #d35400;
+    }
+
+    footer {
+      background: #34495e;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Premium Branding Solutions in Nigeria</h1>
+      <p>Custom Monogramming | Branded Jerseys | Billboard Designs</p>
+      <a href="#contact" class="cta">Get Started Today</a>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Monogramming</h3>
+          <p>Custom embroidery and printing for corporate and personal use</p>
+        </div>
+        <div class="service-card">
+          <h3>Branded Jerseys</h3>
+          <p>High-quality sports and corporate jerseys with custom designs</p>
+        </div>
+        <div class="service-card">
+          <h3>Billboards</h3>
+          <p>Eye-catching outdoor advertising solutions across Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2>Our Work</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/400x300" alt="Monogram Example">
+        <img src="https://via.placeholder.com/400x300" alt="Jersey Design">
+        <img src="https://via.placeholder.com/400x300" alt="Billboard Project">
+        <img src="https://via.placeholder.com/400x300" alt="Corporate Branding">
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Phone Number">
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Eruh Clothing Nigerian Limited. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Form submission handling
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! We will respond within 24 hours.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+```
+
+**Recommended IDEs to Use**:
+1. **VS Code** (Visual Studio Code) - Free, popular, with Live Server extension for real-time preview
+2. **Replit** (https://replit.com) - Web-based, no installation needed
+3. **CodePen** (https://codepen.io) - For quick testing (paste in HTML section)
+4. **Sublime Text** - Lightweight editor with live preview plugins
+
+**To Use**:
+1. Copy all code
+2. Paste into a new file named `index.html`
+3. Open in any modern browser (Chrome, Firefox, Edge)
+4. Replace placeholder images (`via.placeholder.com`) with your actual images
+
+The code includes:
+- Responsive design
+- SEO-friendly structure
+- Contact form
+- Smooth scrolling
+- Modern CSS Grid layout
+- Interactive elements
+- Mobile-first approach
+
+Let me know if you need help with specific modifications! 🚀Here's the combined code (HTML, CSS, and JavaScript) in a single file format that you can copy/paste. I'll also suggest IDEs at the end:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eruh Clothing Nigerian Limited - Custom Branding Services</title>
+  <meta name="description" content="Nigeria's leading provider of monogramming, branded jerseys, and billboard designs. Professional branding solutions since 2025.">
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1920x1080');
+      color: #fff;
+      padding: 120px 0;
+      text-align: center;
+      background-size: cover;
+    }
+
+    .cta {
+      background: #e67e22;
+      color: #fff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+
+    .cta:hover {
+      background: #d35400;
+    }
+
+    .services {
+      padding: 50px 0;
+      text-align: center;
+      background: #f9f9f9;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .service-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    }
+
+    .portfolio {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .contact {
+      padding: 50px 0;
+      background: #2c3e50;
+      color: #fff;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #e67e22;
+      color: #fff;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #d35400;
+    }
+
+    footer {
+      background: #34495e;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Premium Branding Solutions in Nigeria</h1>
+      <p>Custom Monogramming | Branded Jerseys | Billboard Designs</p>
+      <a href="#contact" class="cta">Get Started Today</a>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Monogramming</h3>
+          <p>Custom embroidery and printing for corporate and personal use</p>
+        </div>
+        <div class="service-card">
+          <h3>Branded Jerseys</h3>
+          <p>High-quality sports and corporate jerseys with custom designs</p>
+        </div>
+        <div class="service-card">
+          <h3>Billboards</h3>
+          <p>Eye-catching outdoor advertising solutions across Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2>Our Work</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/400x300" alt="Monogram Example">
+        <img src="https://via.placeholder.com/400x300" alt="Jersey Design">
+        <img src="https://via.placeholder.com/400x300" alt="Billboard Project">
+        <img src="https://via.placeholder.com/400x300" alt="Corporate Branding">
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Phone Number">
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Eruh Clothing Nigerian Limited. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Form submission handling
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! We will respond within 24 hours.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+```
+
+**Recommended IDEs to Use**:
+1. **VS Code** (Visual Studio Code) - Free, popular, with Live Server extension for real-time preview
+2. **Replit** (https://replit.com) - Web-based, no installation needed
+3. **CodePen** (https://codepen.io) - For quick testing (paste in HTML section)
+4. **Sublime Text** - Lightweight editor with live preview plugins
+
+**To Use**:
+1. Copy all code
+2. Paste into a new file named `index.html`
+3. Open in any modern browser (Chrome, Firefox, Edge)
+4. Replace placeholder images (`via.placeholder.com`) with your actual images
+
+The code includes:
+- Responsive design
+- SEO-friendly structure
+- Contact form
+- Smooth scrolling
+- Modern CSS Grid layout
+- Interactive elements
+- Mobile-first approach
+
+Let me know if you need help with specific modifications! 🚀Here's the combined code (HTML, CSS, and JavaScript) in a single file format that you can copy/paste. I'll also suggest IDEs at the end:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eruh Clothing Nigerian Limited - Custom Branding Services</title>
+  <meta name="description" content="Nigeria's leading provider of monogramming, branded jerseys, and billboard designs. Professional branding solutions since 2025.">
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1920x1080');
+      color: #fff;
+      padding: 120px 0;
+      text-align: center;
+      background-size: cover;
+    }
+
+    .cta {
+      background: #e67e22;
+      color: #fff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+
+    .cta:hover {
+      background: #d35400;
+    }
+
+    .services {
+      padding: 50px 0;
+      text-align: center;
+      background: #f9f9f9;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .service-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    }
+
+    .portfolio {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .contact {
+      padding: 50px 0;
+      background: #2c3e50;
+      color: #fff;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #e67e22;
+      color: #fff;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #d35400;
+    }
+
+    footer {
+      background: #34495e;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Premium Branding Solutions in Nigeria</h1>
+      <p>Custom Monogramming | Branded Jerseys | Billboard Designs</p>
+      <a href="#contact" class="cta">Get Started Today</a>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Monogramming</h3>
+          <p>Custom embroidery and printing for corporate and personal use</p>
+        </div>
+        <div class="service-card">
+          <h3>Branded Jerseys</h3>
+          <p>High-quality sports and corporate jerseys with custom designs</p>
+        </div>
+        <div class="service-card">
+          <h3>Billboards</h3>
+          <p>Eye-catching outdoor advertising solutions across Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2>Our Work</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/400x300" alt="Monogram Example">
+        <img src="https://via.placeholder.com/400x300" alt="Jersey Design">
+        <img src="https://via.placeholder.com/400x300" alt="Billboard Project">
+        <img src="https://via.placeholder.com/400x300" alt="Corporate Branding">
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Phone Number">
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Eruh Clothing Nigerian Limited. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Form submission handling
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! We will respond within 24 hours.');
+      this.reset();
+    });
+  </script>
+</body>
+
